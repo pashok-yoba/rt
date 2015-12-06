@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="yui3-cssreset">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/cssreset-context-min.css"/>
+    <script src="index.js"></script>
+    <title>rt test</title>
+</head>
+<body>
+<script>
+    window.addEventListener('DOMContentLoaded', function(){
+        document.querySelectorAll('.rtNavigation')[0].addEventListener('click', function(){
+            var list = document.getElementsByClassName('rtNavigationList')[0];
+            if (list.style.display != 'block'){
+                list.style.display = 'block';
+            }
+            else {
+                list.style.display = 'none'
+            }
+        })
+    })
+</script>
+<header class="rtHeader">
+    <div class="rtheaderInner">
+        <a class="rtLogo" href="#"></a>
+        <nav class="rtNavigation">
+            <ul class="rtNavigationList">
+                <li class="rtNavigationList__item">
+                    <a class="rtNavigationList__link" href="">NEWS</a>
+                </li>
+                <li class="rtNavigationList__item">
+                    <a class="rtNavigationList__link" href="">UPDATES</a>
+                </li>
+                <li class="rtNavigationList__item">
+                    <a class="rtNavigationList__link" href="">MEDIA</a>
+                </li>
+                <li class="rtNavigationList__item">
+                    <a class="rtNavigationList__link" href="">MEDAL TABLE</a>
+                </li>
+                <li class="rtNavigationList__item">
+                    <a class="rtNavigationList__link" href="">SCHEDULE</a>
+                </li>
+                <li class="rtNavigationList__item">
+                    <a class="rtNavigationList__link" href="">ABOUT</a>
+                </li>
+                <li class="rtNavigationList__item">
+                    <a class="rtNavigationList__link" href="">TORCH RELAY</a>
+                </li>
+                <li class="rtNavigationList__item">
+                    <a class="rtNavigationList__link" href="">RADIO</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="rtNewsContainer">
+    <section class="rtMainNews">
+        <article class="rtMainNew">
+            <a class="rtMainNew__link" href="#"></a>
+            <figure class="rtMainNew__img"></figure>
+            <div class="rtMainNewCenter">
+                <h1 class="rtMAinNew__title">Sochi medal wrap-up, Day 3: Mogul magic puts Canada in front</h1>
+                <p class="rtMainNew__description">Team Canada has jumped to the top of the medal standings after three days of competition at the Sochi Olympics,
+                    with golden performances in mogul skiing and short track speed skating.
+                </p>
+                <hr class="rtLine"/>
+            </div>
+            <aside class="rtAdditionNews">
+                <ul class="rtAdditionNewsList">
+                    <li class="rtAdditionNewsList__item rtAdditionNewsList__item--new1">
+                        <article class="rtAdditionNew">
+                            <a class="rtAdditionNew__link" href=""></a>
+                            <img class="rtAdditionNew__image" src="img/mainSmall1.jpg" alt="new"/>
+                            <h2 class="rtAdditionNew__description">
+                                Iconic Jamaican bobsleigh pilot Winston Watts: ‘Sochi receives us like we’re stars’
+                            </h2>
+                        </article>
+                    </li>
+                    <li class="rtAdditionNewsList__item rtAdditionNewsList__item--new2">
+                        <article class="rtAdditionNew">
+                            <a class="rtAdditionNew__link" href=""></a>
+                            <img class="rtAdditionNew__image" src="img/mainSmall2.jpg" alt="new"/>
+                            <h2 class="rtAdditionNew__description">
+                                ‘Playing on home turf is great pressure’ - iconic Soviet goaltender Tretiak
+                            </h2>
+                        </article>
+                    </li>
+                    <li class="rtAdditionNewsList__item rtAdditionNewsList__item--new3">
+                        <article class="rtAdditionNew">
+                            <a class="rtAdditionNew__link" href=""></a>
+                            <img class="rtAdditionNew__image" src="img/mainSmall3.jpg" alt="new"/>
+                            <h2 class="rtAdditionNew__description">
+                                ‘Not housewives with brooms!’ Russian curling skip explains her big ambitions for the Roaring Game
+                            </h2>
+                        </article>
+                    </li>
+                </ul>
+            </aside>
+        </article>
+    </section>
+    <div class="rtMiddleNewsContainer">
+        <section class="rtMiddleNews">
+            <article class="rtMiddleNews__item rtMiddleNew">
+                <a class="rtMiddleNew__link" href="#"></a>
+                <img class="rtMiddleNew__image" src="img/middle1.jpg" alt="middleNew"/>
+                <h2 class="rtMiddleNew__description">
+                    ‘Playing on home turf is great pressure’ - iconic Soviet goaltender Tretiak
+                </h2>
+                <time class="rtMiddleNew__time" datetime="2015-10-10">February 10, 2014</time>
+            </article><!--
+            --><article class="rtMiddleNews__item rtMiddleNew">
+                <a class="rtMiddleNew__link" href="#"></a>
+                <img class="rtMiddleNew__image" src="img/middle2.jpg" alt="middleNew"/>
+                <h2 class="rtMiddleNew__description">
+                    Iconic Jamaican bobsleigh pilot Winston Watts: ‘Sochi receives us like we’re stars’
+                </h2>
+                <time class="rtMiddleNew__time" datetime="2015-10-10">February 10, 2014</time>
+            </article><!--
+            --><article class="rtMiddleNews__item rtMiddleNew">
+                <a class="rtMiddleNew__link" href="#"></a>
+                <img class="rtMiddleNew__image" src="img/middle3.jpg" alt="middleNew"/>
+                <h2 class="rtMiddleNew__description">
+                    15yo prodigy Yulia Lipnitskaya is Russia’s youngest Winter Olympic champion
+                </h2>
+                <time class="rtMiddleNew__time" datetime="2015-10-10">February 10, 2014</time>
+            </article><!--
+            --><article class="rtMiddleNews__item rtMiddleNew">
+                <a class="rtMiddleNew__link" href="#"></a>
+                <img class="rtMiddleNew__image" src="img/middle4.jpg" alt="middleNew"/>
+                <h2 class="rtMiddleNew__description">
+                    ‘Not housewives with brooms!’ Russian curling skip explains her big ambitions for the Roaring Game
+                </h2>
+                <time class="rtMiddleNew__time" datetime="2015-10-10">February 10, 2014</time>
+            </article><!--
+            --><article class="rtMiddleNews__item rtMiddleNew">
+                <a class="rtMiddleNew__link" href="#"></a>
+                <img class="rtMiddleNew__image" src="img/middle5.jpg" alt="middleNew"/>
+                <h2 class="rtMiddleNew__description">
+                    Sochi medal wrap-up, Day 2: Russia joins gold medal race
+                </h2>
+                <time class="rtMiddleNew__time" datetime="2015-10-10">February 10, 2014</time>
+            </article><!--
+            --><article class="rtMiddleNews__item rtMiddleNew">
+                <a class="rtMiddleNew__link" href="#"></a>
+                <img class="rtMiddleNew__image" src="img/middle6.jpg" alt="middleNew"/>
+                <h2 class="rtMiddleNew__description">
+                    Sochi medal wrap-up, Day 1: Norway off to a strong start
+                </h2>
+                <time class="rtMiddleNew__time" datetime="2015-10-10">February 10, 2014</time>
+            </article>
+        </section>
+        <aside class="rtMiddleNewsSideBar">
+            <article class="rtMiddleNewsSideBar___new rtSideBarNew rtSideBarNew--width">
+                <a class="rtSideBarNew__link" href="#"></a>
+                <img class="rtSideBarNew__image rtSideBarNew__image--1" src="img/aside1.jpg" alt="middleNew"/>
+                <h2 class="rtSideBarNew__description">
+                    Iconic Jamaican bobsleigh pilot Winston Watts: ‘Sochi receives
+                    us like we’re stars’
+                </h2>
+            </article><!--
+            --><article class="rtMiddleNewsSideBar___new rtSideBarNew rtSideBarNew--width">
+                <a class="rtSideBarNew__link" href="#"></a>
+                <h2 class="rtSideBarNew__description">
+                    Freestyle skier Dara Howell has become the Olympic champion in the women’s slopestyle at the Sochi Games.
+                    The Canadian tackled the rails, quarter-pipes and jumps at the Rosa Khutor Extreme Park to score 94.20 points.
+                </h2>
+            </article><!--
+            --><article class="rtMiddleNewsSideBar___new rtSideBarNew">
+                <a class="rtSideBarNew__link" href="#"></a>
+                <img class="rtSideBarNew__image" src="img/aside2.jpg" alt="middleNew"/>
+                <h2 class="rtSideBarNew__description rtSideBarNew__description--onImage">
+                    The referees
+                </h2>
+            </article><!--
+            --><article class="rtMiddleNewsSideBar___new rtSideBarNew">
+                <a class="rtSideBarNew__link" href="#"></a>
+                <img class="rtSideBarNew__image" src="img/aside3.jpg" alt="middleNew"/>
+                <h2 class="rtSideBarNew__description rtSideBarNew__description--onImage">
+                    US Sage Kotsenburg
+                </h2>
+            </article>
+        </aside>
+    </div>
+</main>
+</body>
+</html>
